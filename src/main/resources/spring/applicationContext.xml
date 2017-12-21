@@ -15,7 +15,7 @@
 		   http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd">
 
 	<context:annotation-config />
-	<context:component-scan base-package="com.galaxyinternet">
+	<context:component-scan base-package="com.github.report">
 		<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller" />
 	</context:component-scan>
 	<aop:aspectj-autoproxy proxy-target-class="true" />

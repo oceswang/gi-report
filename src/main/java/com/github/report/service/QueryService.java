@@ -1,4 +1,4 @@
-package com.galaxyinternet.service;
+package com.github.report.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,9 +6,9 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.galaxyinternet.dao.QueryDAO;
-import com.galaxyinternet.query.Query;
-import com.galaxyinternet.query.Result;
+import com.github.report.dao.QueryDAO;
+import com.github.report.query.Query;
+import com.github.report.query.Result;
 
 @Service
 public class QueryService

@@ -1,4 +1,4 @@
-package com.galaxyinternet.query;
+package com.github.report.query;
 
 public class HealthResult
 {

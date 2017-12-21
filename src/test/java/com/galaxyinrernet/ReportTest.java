@@ -8,10 +8,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.galaxyinternet.query.HealthReport;
-import com.galaxyinternet.query.HealthResult;
-import com.galaxyinternet.query.Query;
-import com.galaxyinternet.service.QueryService;
+import com.github.report.query.HealthReport;
+import com.github.report.query.HealthResult;
+import com.github.report.query.Query;
+import com.github.report.service.QueryService;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = "classpath*:spring/applicationContext.xml")

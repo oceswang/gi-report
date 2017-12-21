@@ -1,11 +1,11 @@
-package com.galaxyinternet.dao;
+package com.github.report.dao;
 
 import java.util.List;
 
 import org.springframework.stereotype.Repository;
 
-import com.galaxyinternet.query.Query;
-import com.galaxyinternet.query.Result;
+import com.github.report.query.Query;
+import com.github.report.query.Result;
 
 @Repository
 public interface QueryDAO

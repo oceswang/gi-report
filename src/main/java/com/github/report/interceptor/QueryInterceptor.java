@@ -1,4 +1,4 @@
-package com.galaxyinternet.interceptor;
+package com.github.report.interceptor;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -19,8 +19,8 @@ import org.apache.ibatis.reflection.MetaObject;
 import org.apache.ibatis.reflection.factory.DefaultObjectFactory;
 import org.apache.ibatis.reflection.wrapper.DefaultObjectWrapperFactory;
 
-import com.galaxyinternet.query.Param;
-import com.galaxyinternet.query.Query;
+import com.github.report.query.Param;
+import com.github.report.query.Query;
 
 @Intercepts({ @Signature(type = StatementHandler.class, method = "prepare", args = { Connection.class,Integer.class }) })
 public class QueryInterceptor implements Interceptor
