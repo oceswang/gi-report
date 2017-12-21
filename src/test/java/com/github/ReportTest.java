@@ -1,4 +1,4 @@
-package com.galaxyinrernet;
+package com.github;
 
 import java.util.List;
 

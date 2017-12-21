@@ -1,4 +1,4 @@
-package com.galaxyinrernet;
+package com.github;
 
 import org.junit.Test;
 
